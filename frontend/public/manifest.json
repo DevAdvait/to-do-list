@@ -1,0 +1,15 @@
+{
+  "short_name": "To-Do List App",
+  "name": "To-Do List App By Advait Tumbre",
+  "icons": [
+    {
+      "src": "todolisticon.ico",
+      "sizes": "128x128 64x64 32x32 24x24 ",
+      "type": "image/icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fb2058",
+  "background_color": "#00c3ff"
+}

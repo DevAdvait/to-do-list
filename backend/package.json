@@ -1,0 +1,30 @@
+{
+  "name": "to-do-list-backend",
+  "version": "1.0.0",
+  "description": "Backend for the #TODOLIST_PROJECT application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs"
+  ],
+  "author": "Advait Tumbre",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
