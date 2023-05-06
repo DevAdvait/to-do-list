@@ -2,10 +2,11 @@
   "name": "to-do-list-backend",
   "version": "1.0.0",
   "description": "Backend for the #TODOLIST_PROJECT application",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "build":"npm i"
   },
   "keywords": [
     "todo",
