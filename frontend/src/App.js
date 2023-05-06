@@ -1,6 +1,7 @@
 import { Routes, Route, Link } from "react-router-dom";
 import About from "./components/About";
 import IndexPage from "./components/IndexPage";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -24,28 +25,7 @@ const App = () => {
           <Route path="/about" element={<About />} />
         </Routes>
       </main>
-      <footer>
-        <div
-          className="footer-div text-center p-3"
-          style={{
-
-          }}
-        >
-          © 2023 Copyright :
-          <a
-            className="text-white"
-            href="https://www.advaittumbre.xyz"
-            target={"_blank"}
-            rel="noreferrer"
-            style={{
-              textDecoration: "none",
-              fontWeight: "600",
-            }}
-          >
-            Advait Tumbre
-          </a>
-        </div>
-      </footer>
+      <Footer/> 
     </div>
   );
 };

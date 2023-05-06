@@ -10,7 +10,7 @@ const TaskForm = () => {
     event.preventDefault();
 
     const task = { name, description, dueDate };
-    axios.post('http://localhost:5000/tasks', task)
+    axios.post('https://to-do-list-backend-jkba.onrender.com/tasks', task)
       .then(res => {
         console.log(res.data);
         setName('');

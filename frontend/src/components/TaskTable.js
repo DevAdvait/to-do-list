@@ -11,7 +11,7 @@ const TaskTable = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/tasks")
+      .get("https://to-do-list-backend-jkba.onrender.com/tasks")
       .then((res) => {
         setTasks(res.data);
       })
@@ -20,7 +20,7 @@ const TaskTable = () => {
 
   const handleDelete = (id) => {
     axios
-      .delete(`http://localhost:5000/tasks/${id}`)
+      .delete(`https://to-do-list-backend-jkba.onrender.com/tasks/${id}`)
       .then((res) => setTasks(res.data))
       .catch((err) => console.log(err));
   };
@@ -37,7 +37,7 @@ const TaskTable = () => {
 
   const handleSave = () => {
     axios
-      .put(`http://localhost:5000/tasks/${editedTask._id}`, editedTask)
+      .put(`https://to-do-list-backend-jkba.onrender.com/tasks/${editedTask._id}`, editedTask)
       .then((res) => {
         setTasks(res.data);
         handleCloseModal();
@@ -66,7 +66,7 @@ const TaskTable = () => {
     );
     setTasks(updatedTasks);
     axios
-      .put(`http://localhost:5000/tasks/${id}`, updatedTask)
+      .put(`https://to-do-list-backend-jkba.onrender.com/tasks/${id}`, updatedTask)
       .catch((err) => console.log(err));
   };
 

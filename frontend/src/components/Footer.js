@@ -2,14 +2,7 @@ const Footer = () => {
   return (
     <footer>
       <div
-        className="text-center p-3"
-        style={{
-          backgroundColor: "inherit",
-          display: "flex",
-          justifyContent: "center",
-          columnGap: "10px",
-          marginTop: "1rem",
-        }}
+        className="text-center p-3 footer-div"
       >
         © 2023 Copyright :
         <a
@@ -20,14 +13,9 @@ const Footer = () => {
           style={{
             textDecoration: "none",
             fontWeight: "600",
-            background:
-              " linear-gradient(to right, var(--blue) 10%, var(--orange) 60%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
           }}
         >
-          Advait Tumbre
+          Advait Tumbre 
         </a>
       </div>
     </footer>
